@@ -1,0 +1,367 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+.container-fluid {
+  width: 1560px;
+  margin: 0 auto;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+.container-fluid .container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.container-fluid .container nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 60% 15%;
+      grid-template-columns: 25% 60% 15%;
+  height: 100px;
+}
+
+.container-fluid .container nav .nav-logo {
+  border-right: 1px solid #fff;
+}
+
+.container-fluid .container nav .nav-logo img {
+  margin: 20px 100px 0px 0px;
+}
+
+.container-fluid .container nav .nav-menu {
+  margin: 35px auto;
+  font-size: 18px;
+  word-spacing: 5px;
+}
+
+.container-fluid .container nav .nav-menu__contact {
+  background-color: #fff;
+  color: #000;
+}
+
+.container-fluid .container nav .nav-menu__contact h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container-fluid .container nav .nav-menu__contact p {
+  text-align: center;
+}
+
+.container-fluid .container nav i {
+  height: 35px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  color: #e6e3e3;
+}
+
+.container-fluid .container nav a {
+  color: #e6e3e3;
+  text-decoration: none;
+}
+
+.container-fluid .container header {
+  color: #fff;
+}
+
+.container-fluid .container header h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.5);
+  filter: alpha(opacity=50);
+}
+
+.container-fluid .container header .header__img {
+  position: relative;
+  height: 50vh;
+  background-image: url("./img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-65%, 0%);
+          transform: translate(-65%, 0%);
+}
+
+.container-fluid .container header .header__shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container-fluid .container header .header__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 40% 0 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.container-fluid .container main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  height: 300px;
+}
+
+.container-fluid .container main .main__about__us {
+  background-color: #ffffff;
+}
+
+.container-fluid .container main .main__about__us .main__about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 75%;
+      grid-template-columns: 25% 75%;
+  height: 100px;
+}
+
+.container-fluid .container main .main__about__us .main__about h3 {
+  margin: 23% 15%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.container-fluid .container main .main__about__us .main__about span {
+  margin: 10% 0%;
+  font-weight: bold;
+  font-size: 16px;
+  color: #f7921e;
+}
+
+.container-fluid .container main .main__about__us p {
+  margin: 6% 30% 0% 5%;
+  text-align: start;
+  font-size: 18px;
+}
+
+.container-fluid .container main .main__about__img {
+  position: relative;
+  height: 31vh;
+  background-image: url("./img/background2.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.container-fluid .container main .main__about__img .main__about__shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container-fluid .container main .main__about__img .main__button {
+  display: -ms-grid;
+  display: grid;
+  width: 100px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+}
+
+.container-fluid .container .newsletter {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+  height: 250px;
+}
+
+.container-fluid .container .newsletter .newsletter__left {
+  background-color: #f7921e;
+}
+
+.container-fluid .container .newsletter .newsletter__left h3 {
+  margin: 15% 10%;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container-fluid .container .newsletter .newsletter__left .newsletter__left__text {
+  margin: 0 10%;
+  width: 190px;
+  height: 40px;
+  padding-left: 15px;
+  background: #f7921e;
+  color: #dddada;
+  border: 1px solid #fff;
+}
+
+.container-fluid .container .newsletter .newsletter__left .newsletter__left__btn {
+  margin: 0 10%;
+  text-align: center;
+  width: 190px;
+  height: 40px;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.container-fluid .container .newsletter .main__right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 30% 40%;
+      grid-template-columns: 30% 30% 40%;
+  background-color: #201d2b;
+  -webkit-transform: translate(52%, 0%);
+          transform: translate(52%, 0%);
+  position: absolute;
+  width: 1140px;
+  height: 250px;
+  left: 0;
+  right: 0;
+}
+
+.container-fluid .container .newsletter .main__right .main__right__blog h3 {
+  margin: 6% 6%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+
+.container-fluid .container .newsletter .main__right .main__right__blog h3 span {
+  margin: 18% 0% 20% 10%;
+  text-transform: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #d218d8;
+}
+
+.container-fluid .container .newsletter .main__right .main__right__blog .main__right__comments {
+  margin: 5% 5%;
+}
+
+.container-fluid .container .newsletter .main__right .main__right__blog .main__right__comments h4 {
+  margin: 5% 0;
+  color: #fff;
+}
+
+.container-fluid .container .newsletter .main__right .main__right__blog .main__right__comments span {
+  margin: 5% 5% 5% 0;
+  color: #bdbaba;
+}
+
+.container-fluid .container .newsletter .main__right .main__right__blog .main__right__comments p {
+  color: #bdbaba;
+}
+
+.container-fluid .container .newsletter .main__right .main__second {
+  margin: 22% 0 5% 25%;
+}
+
+.container-fluid .container .newsletter .main__right .main__second span {
+  padding: 5px;
+  border: 1px solid #fff;
+  color: #bdbaba;
+}
+
+.container-fluid .container .newsletter .main__right .main__second span:first-child {
+  border: 1px solid #635ad4;
+}
+
+.container-fluid .container .newsletter .main__right .main__second h4 {
+  margin: 5% 0;
+  color: #fff;
+}
+
+.container-fluid .container .newsletter .main__right .main__second p {
+  color: #bdbaba;
+}
+
+.container-fluid .container footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% 25%;
+      grid-template-columns: 75% 25%;
+  height: 240px;
+}
+
+.container-fluid .container footer .footer__clients h3 {
+  margin: 3% 3%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+}
+
+.container-fluid .container footer .footer__clients h3 span {
+  margin-left: 3%;
+  text-transform: none;
+  font-size: 16px;
+  color: #2c5cc5;
+}
+
+.container-fluid .container footer .footer__clients .splide {
+  margin: 5% 5%;
+}
+
+.container-fluid .container footer .footer__clients .splide .splide__track {
+  margin: 0 15%;
+}
+
+.container-fluid .container footer .footer__clients img {
+  position: relative;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container-fluid .container footer .footer__clients .splide__pagination__page.is-active {
+  display: none;
+}
+
+.container-fluid .container footer .footer__author {
+  background-color: #fff;
+}
+
+.container-fluid .container footer .footer__author .footer__author__header {
+  margin: 15% 20% 15% 35%;
+}
+
+.container-fluid .container footer .footer__author .footer__author__header span {
+  margin: 20px 2%;
+  font-size: 18px;
+}
+
+.container-fluid .container footer .footer__author .footer__author__header span i {
+  cursor: pointer;
+  font-size: 20px;
+  color: #837f7f;
+}
+
+.container-fluid .container footer .footer__author h5 {
+  margin: 5% 0;
+  text-align: center;
+}
+
+.container-fluid .container footer .footer__author span {
+  margin: 0 5% 0 9%;
+}
+/*# sourceMappingURL=style.css.map */
