@@ -12,9 +12,9 @@ new Splide(".splide", {
     768: {
       perPage: 2,
     },
-    640: {
-      perPage: 1,
-    },
+    // 640: {
+    //   perPage: 1,
+    // },
   },
 }).mount();
 
