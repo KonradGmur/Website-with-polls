@@ -1,22 +1,22 @@
 // Slider
-new Splide(".splide", {
-  type: "loop",
-  perPage: 3,
-  breakpoints: {
-    1200: {
-      perPage: 3,
-    },
-    992: {
-      perPage: 3,
-    },
-    768: {
-      perPage: 2,
-    },
-    640: {
-      perPage: 1,
-    },
-  },
-}).mount();
+// new Splide(".splide", {
+//   type: "loop",
+//   perPage: 3,
+//   breakpoints: {
+//     1200: {
+//       perPage: 3,
+//     },
+//     992: {
+//       perPage: 3,
+//     },
+//     768: {
+//       perPage: 2,
+//     },
+//     640: {
+//       perPage: 1,
+//     },
+//   },
+// }).mount();
 
 //Scroll
 
